@@ -32,4 +32,4 @@ bun run dev
 
 ## Screenshots
 
-Coming soon
+![Portofolio Website](/public/images/projects/portfolio-website.png)

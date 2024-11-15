@@ -85,10 +85,10 @@ export const PROJECTS = [
 		id: 5,
 		image: "/images/projects/portfolio-website.png",
 		imageAlt: "Project 5 Portofolio Website",
-		title: "Portofolio Website",
+		title: "Portofolio Website V1",
 		startDate: "05 November 2024",
-		endDate: "12 November 2024",
-		description: "My Portofolio Website",
+		endDate: "16 November 2024",
+		description: "My Portofolio Website V1",
 		drop_down: [{ id: 1, name: "Github", link: "/#" }],
 		tech_stack: [
 			{ id: 1, name: "React" },
