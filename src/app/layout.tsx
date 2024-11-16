@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { ReactNode } from "react";
 
@@ -27,8 +28,9 @@ export default function RootLayout({
 			<body className="antialiased custom-scrollbar scroll-smooth">
 				<Header />
 				{children}
-				<Footer />
 				<SpeedInsights />
+				<Analytics />
+				<Footer />
 			</body>
 		</html>
 	);
