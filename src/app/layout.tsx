@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { ReactNode } from "react";
 
 export const metadata: Metadata = {
@@ -27,6 +28,7 @@ export default function RootLayout({
 				<Header />
 				{children}
 				<Footer />
+				<SpeedInsights />
 			</body>
 		</html>
 	);
