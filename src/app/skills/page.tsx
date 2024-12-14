@@ -8,17 +8,17 @@ import {
 	CardTitle,
 } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { SKILLS } from "@/constant";
+import { NAVIGATION, SKILLS } from "@/constant";
 import Image from "next/image";
 
 export default function SkillsPage() {
 	return (
 		<main>
 			<h1 className="pt-2 ~text-5xl/6xl text-center font-bold px-3">
-				./Skills
+				./{NAVIGATION[1].name}
 			</h1>
 			<p className="text-center ~text-base/lg animate-in">
-				My Technology that i use in my project
+				{NAVIGATION[1].description}
 			</p>
 			<section className="grid grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 gap-6 p-10">
 				{SKILLS.map((skill) => (

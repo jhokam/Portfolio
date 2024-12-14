@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className="antialiased custom-scrollbar scroll-smooth">
+			<body className="antialiased custom-scrollbar scroll-smooth dark:bg-red-400 bg-gray-100">
 				<Header />
 				{children}
 				<SpeedInsights />

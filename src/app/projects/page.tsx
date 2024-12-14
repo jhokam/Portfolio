@@ -15,7 +15,7 @@ import {
 	DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Separator } from "@/components/ui/separator";
-import { PROJECTS } from "@/constant";
+import { NAVIGATION, PROJECTS } from "@/constant";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -23,9 +23,9 @@ export default function ProjectPage() {
 	return (
 		<main>
 			<h1 className="pt-2 ~text-5xl/6xl text-center font-bold px-3">
-				./Project
+				./{NAVIGATION[2].name}
 			</h1>
-			<p className="text-center ~text-base/lg">Project that i was working on</p>
+			<p className="text-center ~text-base/lg">{NAVIGATION[2].description}</p>
 			<section className="grid grid-cols-2 max-lg:grid-cols-1 gap-6 p-10">
 				{PROJECTS.map((project) => (
 					<Card key={project.id}>

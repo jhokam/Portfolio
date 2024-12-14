@@ -205,18 +205,21 @@ export const SKILLS = [
 export const NAVIGATION = [
 	{
 		id: 1,
-		name: "Home",
+		name: "Introduction",
 		href: "/",
+		description: "Introduction about me",
 	},
 	{
 		id: 2,
 		name: "Skills",
 		href: "/skills",
+		description: "My Technology that i use in my project",
 	},
 	{
 		id: 3,
 		name: "Projects",
 		href: "/projects",
+		description: "Project that i was working on",
 	},
 ];
 
