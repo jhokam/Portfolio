@@ -5,6 +5,7 @@ export const PROJECTS = [
 		imageAlt: "Project 1 Landing Page Rapier",
 		title: "Landing Page Rapier",
 		startDate: "16 July 2024",
+		endDate: "20 November 2024",
 		description:
 			"The Rapier Company Profile website showcases the company's identity, values, and services. Built for a strong online presence, it features an intuitive design, responsive layout, and key business information.",
 		drop_down: [
@@ -27,6 +28,7 @@ export const PROJECTS = [
 		imageAlt: "Project 2 CMS Rapier",
 		title: "CMS Rapier",
 		startDate: "01 August 2024",
+		endDate: "20 November 2024",
 		description:
 			"The Rapier CMS is a tailored content management system that empowers seamless content updates and management, providing flexibility, control, and a user-friendly interface for efficient website maintenance.",
 		drop_down: [
@@ -67,6 +69,7 @@ export const PROJECTS = [
 		imageAlt: "Project 4 WMS LOBO",
 		title: "WMS LOBO",
 		startDate: "12 October 2024",
+		endDate: "16 November 2024",
 		description: "Warehouse Management System LOBO",
 		drop_down: [
 			{
